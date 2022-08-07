@@ -1,0 +1,12 @@
+title 0.6: Single page app - New Note
+
+note over browser:
+user enters text
+user submits
+note added to notes array
+clear note input field
+redraw Notes
+end note
+
+browser->server: POST note content / date as JSON to /new_note_spa
+server-->browser: HTTP 201 (req fulfilled and new resource created)
